@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1058238921956-p9cee3e0ttkd0cl6l1ikv0rs79sm1aca.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1058238921956</string>
+    <string name="google_api_key" translatable="false">AIzaSyAKMa-Yb3mUG9O2LwbAjcblbNpWlAufCAQ</string>
+    <string name="google_app_id" translatable="false">1:1058238921956:android:122f4476e67781735540f1</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAKMa-Yb3mUG9O2LwbAjcblbNpWlAufCAQ</string>
+    <string name="google_storage_bucket" translatable="false">bank-3583a.appspot.com</string>
+    <string name="project_id" translatable="false">bank-3583a</string>
+</resources>

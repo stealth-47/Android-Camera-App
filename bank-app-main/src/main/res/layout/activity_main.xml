@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background ="@drawable/img"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Bank.AppBarOverlay"/>
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="130dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name  "
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="124dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ID  "
+        android:textColor="@android:color/white"
+        app:layout_anchor="@+id/et1"
+        app:layout_anchorGravity="bottom|center" />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="123dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Gender  "
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="117dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="DOB  "
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/et5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="122dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Age  "
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/et6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="122dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Acc No.  "
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="109dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="236dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="120dp"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="140dp"
+        android:text="FILL IN : "
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+</RelativeLayout>
